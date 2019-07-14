@@ -1,0 +1,64 @@
+
+
+.user-panel{
+    height: 60px;
+}
+.user-panel>.info{
+    position: relative;
+    left: auto;
+}
+
+.skin-blue .sidebar-menu>li.header {
+    color: white;
+    font-weight: bold;
+}
+
+/*Oculta el footer en el login.php*/
+.login-page .main-footer {
+    display: none;
+}
+
+
+
+/*Estilos para agregar registrado en el panel de administrador.*/
+ul.lista-precios , .tabla-precio ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+ul.lista-precios li .numero {
+    font-size: 30px;
+}
+
+h4.nombre_dia {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fe4918;
+}
+
+p.tipo_evento {
+    font-weight: bold;
+    text-align: center;
+}
+.tabla-precio h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fe4918;
+}
+
+.contenido-dia {
+    display: none;  
+}
+
+.contenido-dia label {
+    font-weight: normal;
+}
+
+.contenido-dia time {
+ color: #fe4918;
+ font-weight: bold;   
+}
